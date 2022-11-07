@@ -1,0 +1,11 @@
+
+table{
+    width: 80%;
+    height: 20%;
+    border: solid brown 2px;
+    margin: auto;
+    background-color: rgb(163, 206, 206);
+}
+td ,th{
+    border: 2px black solid;
+}

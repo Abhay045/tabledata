@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./tablee.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Registration and Login form</h1>
+
+    <form onsubmit="event.preventDefault()" >
+       
+     <lable for="fname"><b> First Name</b> </lable>
+    <input type="text" placeholder="Enter Your Name" id="fname" name="fname" required>
+
+    <lable for="lname"><b> Last Name</b> </lable>
+    <input type="text" id="lname" placeholder="Enter last Name" name="lname" required>
+
+    <lable for="email"><b>E-mail</b> </lable>
+    <input type="text" id="email" placeholder="Enter Your E-mail" name="email" required>
+
+    <lable for="number"><b>Mobile Number</b></lable>
+    <input type="text" id="number" placeholder="Enter Mobile Number" name="mobile">
+
+    
+   
+    <lable for="address"><b>Address</b></lable>
+    <textarea name="address" id="address" placeholder="Enter Address"></textarea>
+
+    <input id="submit" type="submit" value="Sign up">
+    </form>
+    </div>
+    <p>Already Have an account <a href="./login.html">Sign in</a> here </p>
+
+    <table id="display">
+        <tr>
+            <th>fname</th>
+            <th>lname</th>
+            <th>E-mail</th>
+            <th>Mobile</th>
+            <th>Address</th>
+        </tr>
+       
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
